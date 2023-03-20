@@ -7,7 +7,7 @@ class Player():
         # letter is x or o
         self.letter = letter
 
-        # we wanna all players to get their next move
+        # we wanna all players to get their next move.
         def get_move(self, game):
             pass
 

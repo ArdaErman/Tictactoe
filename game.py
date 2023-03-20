@@ -6,7 +6,7 @@ class TicTacToe:
     def __init__(self):
         # using a single list to rep 3x3 board
         self.board = [' ' for _ in range(9)]
-        self.current_winner = None  # keep track of winner
+        self.current_winner = None  # keep track of winner.
 
     def print_board(self):
         # this is just getting the rows

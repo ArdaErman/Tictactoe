@@ -51,7 +51,7 @@ class GeniusComputerPlayer(Player):
 
     def get_move(self, game):
         if len(game.available_moves()) == 9 and self.letter == 'X':
-            # Choose one of the best moves for the first move of the game
+            # Choose one of the best moves for the first move of the game.
             best_moves = [0, 2, 6, 8]
             square = random.choice(best_moves)
         else:
